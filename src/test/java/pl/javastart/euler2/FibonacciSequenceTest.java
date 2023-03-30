@@ -1,6 +1,5 @@
 package pl.javastart.euler2;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,8 +9,7 @@ class FibonacciSequenceTest {
     private FibonacciSequence fibonacciSequence = new FibonacciSequence();
 
     @Test
-    void shouldReturn4613732For4000000 (){
-
+    void shouldReturn4613732For4000000() {
         //when
         int result = fibonacciSequence.calculateSum(4000000);
         //then
@@ -19,8 +17,7 @@ class FibonacciSequenceTest {
     }
 
     @Test
-    void shouldReturn0For0 (){
-
+    void shouldReturn0For0() {
         //when
         int result = fibonacciSequence.calculateSum(0);
         //then
@@ -28,8 +25,7 @@ class FibonacciSequenceTest {
     }
 
     @Test
-    void shouldReturn0For1 (){
-
+    void shouldReturn0For1() {
         //when
         int result = fibonacciSequence.calculateSum(1);
         //then
@@ -37,8 +33,7 @@ class FibonacciSequenceTest {
     }
 
     @Test
-    void shouldReturn2For2 (){
-
+    void shouldReturn2For2() {
         //when
         int result = fibonacciSequence.calculateSum(2);
         //then
